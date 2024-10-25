@@ -22,7 +22,7 @@ sudo sysctl -p
 # Flush other rules
 sudo iptables -F
 sudo iptables -t nat -F
-sudo iptables -T mangle -F
+sudo iptables -t mangle -F
 
 # Add iptables rule
 echo "Adding iptables rule for NAT..."
