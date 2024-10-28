@@ -1,3 +1,6 @@
+# Set the execution policy to Unrestricted
+Set-ExecutionPolicy Unrestricted -Scope Process -Force
+
 # Define variables
 $zipUrl = "https://github.com/davidprowe/BadBlood/archive/refs/heads/master.zip"
 $zipFile = "CTF.zip"
